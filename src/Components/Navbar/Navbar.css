@@ -1,0 +1,28 @@
+.mybg{
+  background-color: #2C3E50;
+}
+
+.myTitle{
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.MyLi{
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media screen and (max-width:992px) {
+  .nav-item{
+    margin-bottom: 15px;
+  }
+
+  .myTitle{
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,60 @@
+.contentPortfolio h2{
+  color: #2C3E50;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.H2BeforePortfolio::before{
+  content: " ";
+  position: absolute;
+  width: 260px;
+  height: 6px;
+  background-color: #2C3E50;
+  top: 50%;
+  right: 50%;
+  transform: translate(50% , calc( 50% + 35px ) );
+}
+
+.H2BeforePortfolio::after{
+  content: '\f005';
+  position: absolute;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  top: 50%;
+  right: 50%;
+  transform: translate(50% , 50%);
+}
+
+
+.innerdiv{
+  position: relative;
+  cursor: pointer;
+
+}
+
+.innerdiv .layer{
+  position: absolute;
+  background-color: #1AB9A1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.6s all;
+  
+}
+
+.innerdiv .layer:hover{
+  opacity: 0.8;
+}

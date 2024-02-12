@@ -1,0 +1,42 @@
+.DivImg{
+  width: 250px;
+  margin: 30px;
+}
+.HomePage{
+  flex-direction: column;
+  background-color: #1ABC9C;
+}
+.contentHome h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.H2BeforeHome::before{
+  content: " ";
+  position: absolute;
+  width: 330px;
+  height: 6px;
+  background-color: white;
+  top: 10px;
+  right: 40px;
+  transform: translate(10px , 70px);
+}
+
+.H2BeforeHome::after{
+  content: '\f005';
+  position: absolute;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ABC9C;
+  transform: translate(165px , -1px);
+}
